@@ -1,7 +1,7 @@
 (function() {console.log("gapi", gapi);
     gapi.load("auth2", function() {
         var gauth = gapi.auth2.init({
-            client_id: "129154954257-du73uhf205pfm0vqu0mmjnpuv0gpp9gi.apps.googleusercontent.com"
+            client_id: "1093122655002-828ocjanrksi7q0759nus272qc3mumcr.apps.googleusercontent.com"
         });
     });
     
