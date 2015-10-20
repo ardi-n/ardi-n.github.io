@@ -1,7 +1,6 @@
 (function() {
-    console.log("EJSTEM");
     var gauth = gapi.auth2.init({
-        client_id: "1093122655002-s8qee1hvia7jg14di3radf8jcj3q2g9c.apps.googleusercontent.com"
+        client_id: "129154954257-du73uhf205pfm0vqu0mmjnpuv0gpp9gi.apps.googleusercontent.com"
     });
     gapi.signin2.render("g-signin", {
         app_package_name: "com.div.minicarracing",
