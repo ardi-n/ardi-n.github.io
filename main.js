@@ -1,4 +1,4 @@
-(function() {
+(function() {console.log("gapi", gapi);
     var gauth = gapi.auth2.init({
         client_id: "129154954257-du73uhf205pfm0vqu0mmjnpuv0gpp9gi.apps.googleusercontent.com"
     });
