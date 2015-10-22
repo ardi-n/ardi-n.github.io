@@ -3,6 +3,9 @@
         var gauth = gapi.auth2.init({
             client_id: "1093122655002-828ocjanrksi7q0759nus272qc3mumcr.apps.googleusercontent.com"
         });
+        gauth.currentUser.listen(function(gUser) {
+            console.log("listen", gUser);
+        });
     });
     
     gapi.signin2.render("g-signin2", {
